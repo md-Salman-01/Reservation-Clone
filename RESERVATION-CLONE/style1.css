@@ -1,0 +1,793 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color:white;
+}
+                /* HEADER */
+.header{
+height: 90px;
+width: 100%;
+padding: 20px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+z-index: 100%;
+background: url(Photo/h1.jpg)no-repeat;
+background-position: center;
+background-size:cover;
+}
+                
+.logo{
+position: relative;
+font-size:50px;
+color: black;
+text-decoration:none;
+font-weight: 600;
+}
+                
+.btn{
+color: white;
+font-size: 30px;
+margin-left:10px;
+border-radius: 10px;
+text-decoration: none;
+border: 2px solid black;
+background-color:black;
+}
+                
+.btn:hover{
+ box-shadow: 2px 2px 2px 3px black;
+transition: 0.5s;
+ }
+                
+        /* BOOKING BUTTON */
+
+.booking{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.book-btn{
+    color: black;
+    width: 160px;
+    font-size: 30px;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.book-btn:hover{
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.home{
+    height: 630px;
+    background: url(Photo/hotelhome.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading-h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
+                /* SEARCH-BOX */
+
+.Search{
+    height: 220px;
+    width: 70%;
+    margin: 70px 0 0 230px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+.search-box{
+    display: flex;
+}
+
+                /* INPUT-TEXT */
+
+.text{
+    height:80px;
+    width: 350px;
+    margin: 35px 0 0 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px solid black;
+}
+.label{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text-in{
+   height: 50px;
+   width: 100%;
+   margin-top: 3px;
+   border-radius: 2px;
+   font-size: 25px;
+}
+
+                   /* CHECK-IN */
+
+.Check-in{
+    height:80px;
+    width:15%;
+    margin: 35px 0 0 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+    background-color: white;
+}
+.check{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.time{
+    font-size: 13px;
+    margin-top:1.5px;
+}
+
+.date{
+    margin-top:6px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+                     /* CHECK-OUT */
+
+.Check-Out{
+    height:80px;
+    width:15%;
+    margin: 35px 0 0 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.check-one{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.time-one{
+    font-size: 13px;
+    margin-top:1.5px;
+}
+
+.date-one{
+    margin-top:6px;
+    font-size: 16px;
+}
+
+                                 /* GUEST */
+
+.guest{
+    height:80px;
+    width:15%;
+    margin: 35px 0 0 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.guest-one{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+}
+
+            /* ADULT */
+
+.adult{
+    font-size:20px; 
+}
+.list{
+    font-size: 18px;
+}
+            /* CHILDREN */
+
+.Children{
+    margin-top: 4px;
+}
+.child{
+    font-size: 20px;
+}
+.list-two{
+    font-size: 18px;
+}
+
+            /* ROOMS */
+
+.Room{
+    height:80px;
+    width:15%;
+    margin: 35px 0 0 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px solid black;
+}
+.room{
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+}
+.room-one{
+    font-size: 20px;
+}
+.list-three{
+    font-size: 18px;
+}
+            /* DOMIRTORY */
+
+.Domirtory{
+    margin-top: 4px;
+}
+.dormitory{
+    font-size: 20px;
+}
+
+.list-four{
+    font-size: 18px;
+}
+
+                /* BUTTON */
+
+.SEARCH-BTN{
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin: 30px 0 0 420px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+                /* DISCOUNT */
+
+.head-one{
+    font-size: 40px;
+    margin:100px 0 0 80px;
+}
+
+.discount{
+    height: 300px;
+    width: 90%;
+    margin: 30px 0 0 70px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}                
+
+            /* OFFER 1 */
+
+.offer-one{
+    height: 280px;
+    width: 250px;
+    margin:10px;
+    border: 2px solid black;
+    background: url(Photo/offer1.jpg)no-repeat;
+    background-position:top;
+    background-size:50vh;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.offer-one:hover{
+    box-shadow: 2px 2px 2px 3px black;
+    transition: 0.5s;
+}
+
+.para{
+    margin: 188px 0 0 3px;
+}
+.head{
+    margin:20px 0 0 10px;
+}
+
+            /* OFFER 2 */
+
+.offer-two{
+    height: 280px;
+    width: 250px;
+    margin:10px;
+    border: 2px solid black;
+    background: url(Photo/offer2.avif)no-repeat;
+    background-size:50vh;
+    background-position:top;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.offer-two:hover{
+    box-shadow: 2px 2px 2px 3px black;
+    transition: 0.5s;
+}
+
+.para1{
+    margin: 200px 0 0 3px;
+}
+.head1{
+    margin:12px 0 0 10px;
+}
+
+            /*OFFER-3*/
+
+.offer-three{
+    height: 280px;
+    width: 250px;
+    margin:10px;
+    border: 2px solid black;
+    background: url(Photo/offer3.avif)no-repeat;
+    background-size:53vh;
+    background-position:top;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.offer-three:hover{
+    box-shadow: 2px 2px 2px 3px black;
+    transition: 0.5s;
+}
+.para2{
+    margin: 200px 0 0 3px;
+}
+.head2{
+    margin: 12px 0 0 10px;
+}
+
+        /* OFFER-4 */
+
+.offer-four{
+    height: 280px;
+    width: 250px;
+    margin:10px;
+    border: 2px solid black;
+    background: url(Photo/offer4a.avif)no-repeat;
+    background-size:55vh;
+    background-position:top;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.offer-four:hover{
+    box-shadow: 2px 2px 2px 3px black;
+    transition: 0.5s;
+}
+.para3{
+    margin: 200px 0 0 3px;
+}
+.head3{
+    margin: 12px 0 0 10px;
+}
+                /* OFFER-FIVE */
+
+.offer-five{                
+height: 280px;
+width: 230px;
+margin:10px;
+border: 2px solid black;
+background: url(Photo/offer-five.webp)no-repeat;
+background-position:top;
+background-size:40vh;
+border-radius: 10px;
+background-color: aliceblue;
+}      
+.offer-five:hover{
+    box-shadow: 2px 2px 2px 3px black;
+    transition: 0.5s;
+}          
+.para4{
+    margin: 200px 0 0 3px;
+}
+.head4{
+    margin: 12px 0 0 10px;
+}
+            /* TOP-HOTELS */
+
+.hotel-head{
+    font-size: 40px;
+    font-weight:600;
+    margin: 90px 0 0 80px;
+}
+
+.Famoushotels{
+    height: 313px;
+    width: 90%;
+    margin: 10px 0 0 80px;
+}
+
+.Top-hotel{
+    display: flex;
+    justify-content: space-between;
+}
+
+                /* HOTEL 1 */
+
+.hotel-box1{
+    height: 310px;
+    width: 250px;
+    border: 2px solid black;
+    background: url(Photo/hotel1.jpg)no-repeat;
+    background-size: 35vh;
+    background-position: top;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.hotel-box1:hover{
+    box-shadow: 2px 2px 2px 4px black;
+    transition: 0.5s;
+}
+.hotel-name1{
+    font-size:20px;
+    margin: 260px 0 0 10px;
+}
+
+                /* HOTEL 2 */
+
+.hotel-box2{
+    height: 310px;
+    width: 250px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background: url(Photo/hotel2.jpg)no-repeat;
+    background-size: 35vh;
+    background-position: top;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.hotel-box2:hover{
+    box-shadow: 2px 2px 2px 4px black;
+    transition: 0.5s;
+}
+.hotel-name2{
+    font-size:20px;
+    margin: 260px 0 0 10px;
+}
+
+                /* HOTEL 3 */
+
+.hotel-box3{
+    height: 310px;
+    width: 250px;
+    border: 2px solid black;
+    background: url(Photo/hotel3.jpg)no-repeat;
+    background-size: 35vh;
+    background-position: top;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.hotel-box3:hover{
+    box-shadow: 2px 2px 2px 4px black;
+    transition: 0.5s;
+}
+.hotel-name3{
+    font-size:20px;
+    margin: 260px 0 0 10px;
+}
+
+                    /* HOTEL 4 */
+
+.hotel-box4{
+    height: 310px;
+    width: 250px;
+    border: 2px solid black;
+    background: url(Photo/hotel4.jpg)no-repeat;
+    background-size: 35vh;
+    background-position: top;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+.hotel-box4:hover{
+    box-shadow: 2px 2px 2px 4px black;
+    transition: 0.5s;
+}
+.hotel-name4{
+    font-size:20px;
+    margin: 260px 0 0 10px;
+}
+
+                       /*HOTEL 5*/
+
+
+.hotel-box5{
+    height: 310px;
+    width: 250px;
+    border: 2px solid black;
+    background: url(Photo/hotel5.jpg)no-repeat;
+    background-size: 35vh;
+    background-position: top;
+    border-radius: 15px;
+    background-color:aliceblue;
+}
+.hotel-box5:hover{
+    box-shadow: 2px 2px 2px 4px black;
+    transition: 0.5s;
+}
+.hotel-name5{
+    font-size:20px;
+    margin: 260px 0 0 10px;
+}
+
+                    /* DESCRIPTION */
+.head5{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.description{
+    height: 213px;
+    width: 90%;
+    margin: 80px 0 0 80px;
+    display: flex;
+    justify-content:space-between;
+}
+
+            /* DESCRIPTION-BOX 1 */
+
+.desci-box1{
+    height: 210px;
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.desci-box1:hover{
+    box-shadow: 2px 2px 2px 4px black;
+    transition: 0.5s;
+}
+.desci-icon{
+   font-size: 80px;
+   margin-left: 125px;
+}
+.desci-name1{
+    text-align: center;
+}
+.desci-para{
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+}
+
+            /* DESCRIPTION - BOX 2 */
+
+.desci-box2{
+    height: 210px;
+    width: 330px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.desci-box2:hover{
+    box-shadow: 2px 2px 2px 4px black;
+    transition: 0.5s;
+}
+
+.desci-icon1{
+    font-size: 75px;
+    margin-left: 15px;
+ }
+ .desci-name2{
+    font-size: 23px;
+     text-align: center;
+ }
+ .desci-para1{
+     font-size: 20px;
+     margin: 10px 0 0 10px;
+ }
+
+            /* DESCRIPTION-BOX 3 */
+
+.desci-box3{
+    height: 210px;
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.desci-box3:hover{
+    box-shadow: 2px 2px 2px 4px black;
+    transition: 0.5s;
+}
+
+.desci-icon2{
+    font-size: 70px;
+    margin: 5px 0 0 50px;
+ }
+ .desci-name3{
+     text-align: center;
+ }
+ .desci-para2{
+     font-size: 20px;
+     margin: 10px 0 0 10px;
+ }
+
+                    /* DESCRIPTION-BOX 4 */
+
+.desci-box4{
+    height: 210px;
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.desci-box4:hover{
+    box-shadow: 2px 2px 2px 4px black;
+    transition: 0.5s;
+}
+
+.desci-icon3{
+    font-size: 70px;
+    margin: 5px 0 0 12px;
+ }
+ .desci-name4{
+     text-align: center;
+ }
+ .desci-para3{
+     font-size: 20px;
+     margin: 10px 0 0 10px;
+ }
+ 
+                    /* FOOTER */
+ 
+.footer{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.link{
+    float: left;
+}
+
+.link h1{
+    margin: 30px 0 0 40px;
+    font-size: 30px;
+}
+ .link a{
+    color: black;
+    font-size: 25px;
+    display: flex;
+    text-decoration: none;
+    margin: 30px 0 0 40px;
+}
+.Pack{
+    float: left;
+    margin-left: 50px;
+}
+.Pack h1{
+    margin: 30px 0 0 40px;
+    font-size: 30px;
+}
+.Pack a{
+    color: black;
+    font-size: 25px;
+    display: flex;
+    text-decoration: none;
+    margin: 30px 0 0 40px;
+} 
+
+.Contact{
+    float: left;
+    margin-left: 40px;   
+}
+
+.Contact h1{
+    font-size: 30px;
+    margin: 30px 0 0 40px;
+
+}
+
+.Contact a{
+    color: black;
+    display: flex;
+    font-size: 25px;
+    text-decoration: none;
+    margin:  30px 0 0 40px;
+}
+
+.Media{
+    float: left;
+    margin-left: 40px;
+}
+
+.Media h1{
+    font-size: 30px;
+    margin:  30px 0 0 30px;
+}
+
+.Media a{
+    color: black;
+    display: flex;
+    font-size: 50px;
+    text-decoration: none;
+    margin:  30px 0 0 70px;
+}
+
+.Payment {
+    font-size: 25px;
+    margin:  50px 0 0 149px;
+   
+}
+
+.Img{
+    display: flex;
+    border-radius: 5px;
+}
+
+.boxed-one{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black; 
+    background: url(Photo/visaa.png)no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+.boxed-two{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/pytm.svg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxed-three{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/phone.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxed-four{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/rupee.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxed-five{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/bhim.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxed-six{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/bharat.jpeg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}

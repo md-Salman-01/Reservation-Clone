@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color:white;
+}
+                    /* HEADER */
+
+.header{
+    height: 90px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 100%;
+    background: url(Photo/h1.jpg)no-repeat;
+    background-position: center;
+    background-size:cover;
+    }
+                                
+    .logo{
+    position: relative;
+    font-size:50px;
+    color: black;
+    text-decoration:none;
+    font-weight: 600;
+    }
+                                
+    .btn{
+    color: white;
+    font-size: 30px;
+    margin-left:10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color:black;
+    }
+                                
+    .btn:hover{
+    box-shadow: 2px 2px 2px 3px black;
+    transition: 0.5s;
+    }
+
+
+
+.home{
+    height: 620px;
+    border: 2px solid black;
+    background: url(Photo/train1.avif)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+        /* BOOKING BUTTON */
+
+.booking{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.book-btn{
+    color: black;
+    width: 160px;
+    font-size: 30px;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.book-btn:hover{
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+                /* SEARCH-BOX */
+
+.Search{
+    height: 250px;
+    width: 90%;
+    margin: 100px 0 0 80px;
+    border-radius: 15px;    
+}
+            /* SEARCH-HEAD */
+
+.search-head{
+    width: 60%;
+    height: 40px;
+    margin:  5px 0 0 270px;
+    display: flex;
+}
+.search-head-box{
+    color: black;
+    height: 35px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius:20px;
+    font-size: 25px;
+    text-align: center;
+}
+.search-head-box:hover{
+    color:white;
+    background-color: black;
+}
+
+
+.search-head-box1{
+    color: white;
+    height: 35px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius:20px;
+    font-size: 25px;
+    text-align: center;
+    background-color:black;
+}
+.search-head-box1:hover{
+    background-color:white;
+    color:black;
+}
+
+            /* TRAIN SEARCH BOX */
+
+.Train-search-bar{
+    height:120px;
+    width: 87%;
+    display: flex;
+    margin: 30px 0 0 90px;
+    border-radius: 10px;
+    background-color:white; 
+}
+        /* FROM TEXT */
+
+.label-text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left:7px;
+}
+
+.train-search1{
+    display: flex;
+    height: 58.5px;
+    width: 320px;
+    font-size: 25px;
+    margin: 10px 0 0 7px;
+    border-radius: 10px; 
+}
+
+.bx-transfer-alt{
+    font-size: 50px;
+    margin: 40px 0 0 5px;
+}
+            /* TO TEXT  */
+.label-text1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+.train-search2{
+    display: flex;
+    height: 58.5px;
+    width: 320px;
+    font-size: 25px;
+    margin: 10px 0 0 5px;
+    border-radius: 10px; 
+}
+
+            /*DEPARTURE*/
+
+.train-depart{
+    height: 93px;
+    width: 200px;
+    margin-left: 15px;
+}
+.label-text2{
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.train-date{
+    height: 58px;
+    width: 196px;
+    margin-top: 13px ;
+    font-size: 20px;
+    border-radius: 5px;
+}
+            /* TRAIN-CLASS */
+
+.label-text3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.train-class{
+    height: 92px;
+    width: 130px;
+    margin: 0 0 0 13px;
+}
+
+.class-select{
+    height: 59px;
+    width: 127px;
+    border-radius: 8px;
+    display: flex;
+    font-size: 22px;
+    margin-top:9px;
+}
+            /*SEARCH - BTN*/
+
+.train-search-btn{
+    color: white;
+    height:60px;
+    width: 100px;
+    font-size: 30px;
+    margin:37px 0 0 10px;
+    border-radius: 10px;
+    background-color: black;
+}
+                    /* ADDS */
+
+.train-add{
+    height: 150px;
+    width: 90%;
+    margin:  65px 0 0 75px;
+    border-radius: 15px;
+    background: url(Photo/train-add.webp)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+                           /* EXPLORE - MORE */
+
+.explore-h1{
+    font-size: 40px; 
+    margin: 80px 0  0 53px; 
+}
+
+
+.Explore-more{
+    height:180px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 40px;
+}                                       
+                      /* EXPLORE-BTN 1 */
+                        
+.explore-btn{
+    height: 160px;
+    width: 150px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.explore-btn:hover{
+    box-shadow: 2px 2px 2px 3px  black;
+    transition: 0.5s;
+}
+
+.explore-btn1{
+    height: 100px;
+    width: 147px;
+}
+
+#train-icon{
+    height: 113px;
+    width: 143.5px;
+    font-size: 80px;
+    text-align: center;
+}
+h3{
+    margin-top: 10px;
+    text-align: center;
+}
+                /* Train-features */
+
+.features-h1{
+    font-size: 40px;
+    margin:  100px 0 0 73px;
+}
+.Train-features{
+    height: 125px;
+    width:90%;
+    margin: 20px 0 0 70px;
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features1{
+    height: 120px;
+    width: 250px;
+    border-radius: 20px;
+    background: url(Photo/feature1.webp)no-repeat;
+    background-position: center;
+    background-size:35vh;
+}
+.features2{
+    height: 120px;
+    width: 250px;
+    border-radius: 20px;
+    background: url(Photo/feature2.webp)no-repeat;
+    background-position: center;
+    background-size:35vh;
+}
+.features3{
+    height: 120px;
+    width: 250px;
+    border-radius: 20px;
+    background: url(Photo/feature3.webp)no-repeat;
+    background-position: center;
+    background-size:35vh;
+}
+.features4{
+    height: 120px;
+    width: 250px;
+    border-radius: 20px;
+    background: url(Photo/feature4.webp)no-repeat;
+    background-position: center;
+    background-size:35vh;
+}
+.features5{
+    height: 120px;
+    width: 250px;
+    border-radius: 20px;
+    background: url(Photo/feature5.webp)no-repeat;
+    background-position: center;
+    background-size:35vh;
+}
+
+                                /*Train-Img*/
+.Train-Image{
+    height: 400px;
+    width: 100%;
+    background:url(Photo/train-foot.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top:70px;
+}                                
+                        /*FOOTER */
+
+.footer{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.link{
+    float: left;
+}
+
+.link h1{
+    margin: 30px 0 0 40px;
+    font-size: 30px;
+}
+ .link a{
+    color: black;
+    font-size: 25px;
+    display: flex;
+    text-decoration: none;
+    margin: 30px 0 0 40px;
+}
+.Pack{
+    float: left;
+    margin-left: 50px;
+}
+.Pack h1{
+    margin: 30px 0 0 40px;
+    font-size: 30px;
+}
+.Pack a{
+    color: black;
+    font-size: 25px;
+    display: flex;
+    text-decoration: none;
+    margin: 30px 0 0 40px;
+} 
+
+.Contact{
+    float: left;
+    margin-left: 40px;   
+}
+
+.Contact h1{
+    font-size: 30px;
+    margin: 30px 0 0 40px;
+
+}
+
+.Contact a{
+    color: black;
+    display: flex;
+    font-size: 25px;
+    text-decoration: none;
+    margin:  30px 0 0 40px;
+}
+
+.Media{
+    float: left;
+    margin-left: 40px;
+}
+
+.Media h1{
+    font-size: 30px;
+    margin:  30px 0 0 30px;
+}
+
+.Media a{
+    color: black;
+    display: flex;
+    font-size: 50px;
+    text-decoration: none;
+    margin:  30px 0 0 85px;
+}
+h1{
+    margin-left: 3px;
+}
+.Payment {
+    font-size: 20px;
+    margin:  50px 0 0 175px;
+}
+
+.Img{
+    display: flex;
+    border-radius: 5px;
+}
+
+.boxed-one{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black; 
+    background: url(Photo/visaa.png)no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+.boxed-two{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/pytm.svg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxed-three{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/phone.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxed-four{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/rupee.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxed-five{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/bhim.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxed-six{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/bharat.jpeg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}

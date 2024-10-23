@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESERVATION</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+                    <!-- HEADER -->
+    
+    <header class="header">
+              <h1 class="logo">TravelTix</h1>
+
+            <nav class="navbar">
+                   <a href="LOGIN-PAGE/login.html" class="btn">Log-in</a>
+                   <a href="SIGN-IN/sign-in.html" class="btn">Sign-in</a>
+            </nav>
+    </header>
+     
+    <section class="home">
+
+                    <div class="booking">
+
+                        <a href="index.html" class="book-btn"> <i class='bx bxs-plane-alt'></i> FLIGHT</a>
+                        <a href="index1.html" class="book-btn"><i class='bx bx-hotel' ></i>HOTEL</a>
+                        <a href="index2.html" class="book-btn"><i class='bx bxs-train' ></i>TRAIN</a>
+                        <a href="index3.html" class="book-btn"><i class='bx bxs-bus' ></i>BUS</a>
+          
+                    </div>
+                                   <!-- FIRST-BOX -->
+         <div class="box">          
+
+                    <div class="option">
+
+                               <label class="text-one" for="One Way">One Way</label>
+                               <input class="check" type="radio">
+
+                               <label class="text-two" for="Round Trip">Round Trip</label>
+                               <input class="check" type="radio">
+
+                                <label class="text-three" for="Multi City">Multi City</label>
+                                <input class="check" type="radio">
+                    </div>
+
+                           <hr>
+                                                <!-- SEARCH-BOX -->
+
+                        <div class="search-box">
+
+                                    <input class="search-one" type="text" placeholder="From">
+                                    <i class='bx bx-transfer-alt'></i>
+                                    <input class="search-two" type="text" placeholder="To">
+                        </div>
+
+                                        <!-- TIMEING - SECTION -->
+
+                    <div class="timeing-section">
+
+                                <div class="Departure">
+
+                                    <h3 class="dep">Departure<i class='bx bxs-plane-take-off'></i>:</h3>
+                                    <input class="timeing-one" type="time">
+                                    <input class="timeing-two" type="date">
+                                </div>
+
+                                <!-- RETURN -->
+
+                            <div class="Return">
+                                    <h3 class="rtn">Return<i class='bx bxs-plane-land bx-flip-horizontal'></i>:</h3>
+                                    <input class="return-one" type="time">
+                                    <input class="return-two" type="date">
+                            </div>
+                    </div>
+                                            <!-- CLASS -->
+   
+            <div class="Traveller">
+
+                            <div class="class">
+    
+                                        <h3 class="cls">Class:</h3>
+                                <select class="select">
+                                    <option class="select-text" value="Economy">Economy</option>
+                                    <option  class="select-text" value="Premium Economy">Premium Economy</option>
+                                    <option  class="select-text" value="Business Class">Business Class</option>
+                                </select>
+                            </div>
+
+                                    <!--Passengers-->
+
+                    <div class="people">
+
+                      <h3 class="pas">Passenger:</h3>
+
+                                  <select class="pass">
+                                         <option class="pass-text" value="Adult">Adult</option>
+                                         <option class="pass-text" value="Children">Childeren</option>
+                                         <option class="pass-text" value="Infants">Infants</option>
+                                  </select>
+
+                                            <select class="number">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                        
+                                            </select>
+                    </div>              
+           </div>                                  
+                                            <!-- BUTTON -->
+
+                             <button class="Submit-btn" type="button">SEARCH</button>
+
+            </div>           
+     </section>
+                                            <!--DESTINATION  -->
+
+                                <h1 class="heading">Trending Destinations:</h1>
+
+                    <section class="destination">
+
+                            <div class="location">
+
+                                      <div class="locate-one">
+                                        <h1 class="locate-one-h1">Manali</h1>
+                                      </div>
+
+                                      <div class="locate-two">
+                                        <h1 class="locate-two-h1">Ladak</h1>
+                                      </div>
+
+                                      <div class="locate-three">
+                                        <h1 class="locate-three-h1">Himachal</h1>
+                                      </div>
+
+                                      <div class="locate-four">
+                                        <h1 class="locate-four-h1">Darjeeling</h1>
+                                      </div>
+
+                                      <div class="locate-five">
+                                        <h1 class="locate-five-h1">Nepal</h1>
+                                      </div>
+                                   
+                                </div>
+                    </section>
+
+                                    <!-- FLIGHT OFFER -->
+
+                  <h1 class="airline-h1">Today's Flight Offers</h1>
+
+                <div class="airlines">
+                    <div class="flight-offer1"></div>
+                    <div class="flight-offer2"></div>
+                    <div class="flight-offer3"></div>
+                    <div class="flight-offer4"></div>
+                    <div class="flight-offer5"></div>
+                </div>    
+
+                                    <!-- TOP PLANE ROUTE -->
+                
+                    <h1 class="plane-h1">Top Plane Routes</h1>                
+                                    
+                    <div class="Plane-Route">
+
+                        <div class="route">
+                            <h2>NEW DELHI <i class="fa-solid fa-plane-departure"></i> JAMMU</h2>
+                            <h2 class="route-h2">IGI - JCE</h2>
+                            <h3 class="route-h3">BOOK NOW <i class="fa-solid fa-arrow-right"></i></h3>
+                        </div>
+                        
+                        <div class="route">
+                            <h2>MUMBAI <i class="fa-solid fa-plane-departure"></i> LUCKNOW</h2>
+                            <h2 class="route-h2">CSMIA - CCSIA</h2>
+                            <h3 class="route-h3">BOOK NOW <i class="fa-solid fa-arrow-right"></i></h3>
+                        </div>
+
+                        <div class="route">
+                            <h2> KOLKATA <i class="fa-solid fa-plane-departure"></i> RAIPUR</h2>
+                            <h2 class="route-h2">NSCBIA - SVA</h2>
+                            <h3 class="route-h3">BOOK NOW <i class="fa-solid fa-arrow-right"></i></h3>
+                        </div>
+
+                        <div class="route">
+                            <h2> AHMEDABAD <i class="fa-solid fa-plane-departure"></i> BIHAR</h2>
+                            <h2 class="route-h2">SVPIA - JPNIA</h2>
+                            <h3 class="route-h3">BOOK NOW <i class="fa-solid fa-arrow-right"></i></h3>
+                        </div>
+
+                        <div class="route">
+                            <h2>INDORE <i class="fa-solid fa-plane-departure"></i> MUMBAI</h2>
+                            <h2 class="route-h2">IDR - CSMIA</h2>
+                            <h3 class="route-h3">BOOK NOW <i class="fa-solid fa-arrow-right"></i></h3>
+                        </div>
+
+                        <div class="route">
+                            <h2>LUCKNOW <i class="fa-solid fa-plane-departure"></i> DELHI</h2>
+                            <h2 class="route-h2">CCSIA - IGI</h2>
+                            <h3 class="route-h3">BOOK NOW <i class="fa-solid fa-arrow-right"></i></h3>
+                        </div>
+
+                        <div class="route">
+                            <h2>DELHI <i class="fa-solid fa-plane-departure"></i> UTTRAKHAND</h2>
+                            <h2 class="route-h2">IGI - ABVA </h2>
+                            <h3 class="route-h3">BOOK NOW <i class="fa-solid fa-arrow-right"></i></h3>
+                        </div>
+
+                        <div class="route">
+                            <h2>PUNJAB <i class="fa-solid fa-plane-departure"></i> GUJARAT</h2>
+                            <h2 class="route-h2">CIA - SVPIA</h2>
+                            <h3 class="route-h3">BOOK NOW <i class="fa-solid fa-arrow-right"></i></h3>
+                        </div>
+
+                        <div class="route">
+                            <h2>KOCHI <i class="fa-solid fa-plane-departure"></i> BENGALURU</h2>
+                            <h2 class="route-h2">CIA - KIA</h2>
+                            <h3 class="route-h3">BOOK NOW <i class="fa-solid fa-arrow-right"></i></h3>
+                        </div>
+                       
+
+                    </div>                
+
+                                    <!-- IMAGE -->
+
+                            <section class="photo">
+                                  <div class="image"></div>
+                            </section>
+
+                            <!-- FOOTER -->
+<hr>
+
+    <section class="footer">
+        
+        <div class="link">
+
+       <h1>Quick Links</h1>
+            <a href="#">Flight</a>
+            <a href="#">Hotel</a>
+            <a href="#">Resort</a>
+            <a href="#">Train</a>
+        </div>
+
+        <div class="Pack">
+
+            <h1>Packages</h1>
+                 <a href="#">Kashmir</a>
+                 <a href="#">Himachal</a>
+                 <a href="#">Manali</a>
+                 <a href="#">Darjeeling</a>
+             </div>
+
+             
+        <div class="Contact">
+
+            <h1>About</h1>
+                 <a href="#">About</a>
+                 <a href="#">Contact</a>
+                 <a href="#">Privacy Policy</a>
+                 <a href="#">Term & Condition</a>
+             </div>
+
+                 
+        <div class="Media">
+
+            <h1>Connect Us</h1>
+                 <a href="#"><i class='bx bxl-facebook'></i></a>
+                 <a href="#"><i class='bx bxl-instagram' ></i></a>
+                 <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+             </div>
+
+    </section>
+                        <!-- PAYMENT -->
+
+    <section class="last">
+
+        <div class="Payment">
+
+            <h1>Payment Mode -</h1>
+            
+            <div class="Img">
+                <div class="boxed-one"></div>
+                <div class="boxed-two"></div>
+                <div class="boxed-three"></div>
+                <div class="boxed-four"></div>
+                <div class="boxed-five"></div>
+                <div class="boxed-six"></div>
+            </div>
+
+                        <p>@ All Right Reserved.</p>
+
+        </div>
+    </section>
+    
+</body>
+</html>

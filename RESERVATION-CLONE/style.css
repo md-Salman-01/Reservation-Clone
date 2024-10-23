@@ -1,0 +1,660 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background:white;
+}
+                            /* HEADER*/
+.header{
+height: 90px;
+width: 100%;
+padding: 20px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+z-index: 100%;
+background: url(Photo/h1.jpg)no-repeat;
+background-position: center;
+background-size:cover;
+}
+                            
+.logo{
+position: relative;
+font-size:50px;
+color: black;
+text-decoration:none;
+font-weight: 600;
+}
+                            
+.btn{
+color: white;
+font-size: 30px;
+margin-left:10px;
+border-radius: 10px;
+text-decoration: none;
+border: 2px solid black;
+background-color:black;
+}
+                            
+.btn:hover{
+box-shadow: 2px 2px 2px 3px black;
+transition: 0.5s;
+}
+
+                        /* book-btn */
+
+.book-btn{
+    color: black;
+    width: 150px;
+    font-size: 30px;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.booking{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book-btn:hover{
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+                    /* HOME */
+
+.home{
+    height: 90vh;
+    background: url(Photo/homplane.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+                             /* HOME-BOX */
+
+.box{
+    height: 440px;
+    width: 30%;
+    margin:auto;
+    margin-top:80px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.option{
+    display: flex;
+    justify-content: center;    
+}
+                              /* TEXT */
+
+.text-one{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left:10px;
+}
+
+.text-two{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left:20px;
+}
+
+.text-three{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left:25px;
+}
+
+.check{
+    margin-left: 10px;
+}
+                           /* SEARCH-BOX */
+
+.search-box{
+    display: flex;
+}
+.search-one{
+    position:relative;
+    height: 55px;
+    width: 178px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.search-two{
+    /* position: relative; */
+    height: 55px;
+    width: 178px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.bx-transfer-alt{
+    font-size: 50px;
+    margin: 55px 0 0 5px;
+    color: white;
+}
+                            /* DEPARTURE -BOX */
+
+.timeing-section{
+    display: flex;
+}
+
+.Departure{
+    position: relative;
+    height:103px;
+    width: 178px;
+    margin: 20px 0 0 10px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.dep{
+    margin-left: 1px;
+}
+.Departure h3{
+    color: black;
+}
+
+.timeing-one{   
+    font-size: 20px;
+    margin: 3px 0 0 2px;
+}
+
+.timeing-two{
+    font-size:20px;
+    margin: 3px 0 0 2px;
+}
+                                /* RETURN */
+
+.Return{
+    position: relative;
+    height:103px;
+    width: 178px;
+    margin: 20px 8px 0 75px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.rtn{
+    margin-left: 1px;
+}
+.return-one{
+    font-size: 20px;
+    margin: 3px 0 0 2px;
+    background:transparent;
+}
+.return-two{
+    font-size: 20px;
+    margin: 3px 0 0 2px;
+}
+                              /* CLASS-BOX */
+
+.class{
+   font-size: 20px;
+   height: 70px;
+   width: 197px;
+   border-radius: 5px;
+   margin: 23px 0 0 10px;
+   border: 2px solid black;
+   background-color: white;
+}
+
+.cls{
+    margin-left: 2px;
+}
+
+.select{
+    width: 150px;
+    font-size: 25px;
+    margin-left: 2px;
+}
+
+.select-text{
+    color: black;
+    font-weight: 600;  
+}
+.Traveller{
+    display: flex;
+}
+                               /* PASSENGER-BOX */
+
+.people{
+    font-size: 20px;
+    height: 70px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 23px 8px 0 72px;
+    background-color: white;
+}
+.pas{
+    margin-left:2px;
+}
+.pass{
+    font-size: 25px;
+    margin-left: 3px;
+    width:130px;
+}
+.pass-text{
+    color: black;
+    font-weight: 600;
+}
+
+.number{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Submit-btn{
+    color: black;
+    height: 40px;
+    width: 40%;
+    font-size: 30px;
+    margin: 40px  0 0 135px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+                                /* DESTINATION */
+.heading{ 
+    font-size: 40px;
+    margin: 50px 0 0 25px;
+}
+
+.destination{
+    height: 250px;
+    width: 100%;
+    margin-top: 20px;
+}
+.location{
+    display: flex;
+    justify-content: space-around;
+}
+                                 /* BOX-1 */
+
+.locate-one{
+    height: 200px;
+    width: 250px;
+    background: url(Photo/manali1.jpeg)no-repeat;
+    background-position:top;
+    background-size: 40vh;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.locate-one:hover{
+    box-shadow: 2px  2px 2px 5px black;
+    transition: 0.5s;
+}
+.locate-one-h1{
+    color: black;
+    text-align:center;
+    margin-top: 168px;
+    font-size: 30px;
+}
+                     /* BOX-2 */
+
+.locate-two{
+    height: 200px;
+    width: 250px;
+    background: url(Photo/ladak.jpeg)no-repeat;
+    background-position:top;
+    background-size: 38vh;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.locate-two:hover{
+    box-shadow: 2px  2px 2px 5px black;
+    transition: 0.5s;
+}
+.locate-two-h1{
+    color: black;
+    text-align:center;
+    margin-top: 168px;
+    font-size: 30px;
+}
+                    /* BOX-3 */
+
+.locate-three{
+    height: 200px;
+    width: 250px;
+    background: url(Photo/himachal.jpg)no-repeat;
+    background-position:top;
+    background-size: 34vh;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.locate-three:hover{
+    box-shadow: 2px  2px 2px 5px black;
+    transition: 0.5s;
+}
+.locate-three-h1{
+    color: black;
+    text-align:center;
+    margin-top: 168px;
+    font-size: 30px;
+}
+                    /* BOX-4 */
+
+.locate-four{
+    height: 200px;
+    width: 250px;
+    background: url(Photo/darjeeling.jpeg)no-repeat;
+    background-position:top;
+    background-size: 38vh;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.locate-four:hover{
+    box-shadow: 2px  2px 2px 5px black;
+    transition: 0.5s;
+}
+
+.locate-four-h1{
+    color: black;
+    text-align:center;
+    margin-top: 165px;
+    font-size: 30px;
+}
+                      /* BOX-5 */
+
+.locate-five{
+    height: 200px;
+    width: 250px;
+    background: url(Photo/nepal.jpeg)no-repeat;
+    background-position:top;
+    background-size: 34vh;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.locate-five:hover{
+    box-shadow: 2px  2px 2px 5px black;
+    transition: 0.5s;
+}
+.locate-five-h1{
+    color: black;
+    text-align:center;
+    margin-top: 165px;
+    font-size: 30px;
+}
+                         /* AIRLINES */
+.airline-h1{
+    font-size: 40px;
+    margin:  40px 0 0 25px;
+}
+.airlines{
+    height: 183px;
+    width: 97%;
+    margin: 20px 0 0 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.flight-offer1{
+    height: 180px;
+    width: 250px;
+    border-radius: 10px;
+    background: url(Photo/flightoff1.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flight-offer2{
+    height: 180px;
+    width: 250px;
+    border-radius: 10px;
+    background: url(Photo/flightoff2.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flight-offer3{
+    height: 180px;
+    width: 250px;
+    border-radius: 10px;
+    background: url(Photo/flightoff3.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.flight-offer4{
+    height: 180px;
+    width: 250px;
+    border-radius: 10px;
+    background: url(Photo/flightoff4.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.flight-offer5{
+    height: 180px;
+    width: 250px;
+    border-radius: 10px;
+    background: url(Photo/flightoff5.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+                                    /*TOP-PLANE-ROUTE */
+
+.plane-h1{
+    font-size: 40px;
+    margin:50px 0 0 75px;
+}                                    
+.Plane-Route{
+    height:400px;
+    width:90%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 0 80px;
+}
+
+.route{
+    height: 100px;
+    width: 350px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.route:hover{
+    box-shadow: 2px 2px 2px 4px black;
+    transition: 0.5s;
+}
+
+h2{
+    margin-left: 5px;
+} 
+
+.route-h2{
+    margin-top: 10px;
+    color:rgb(3, 188, 249);
+}
+.route-h3{
+    margin-right: 10px;
+    text-align: end;
+}
+
+.fa-arrow-right{
+    color:rgb(3, 188, 249);
+    font-size: 20px;
+}
+                                /*FOOTER-IMAGE */
+
+.photo{
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: blue;
+    background: url(Photo/footer.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.link{
+    float: left;
+}
+
+.link h1{
+    margin: 30px 0 0 40px;
+    font-size: 30px;
+}
+ .link a{
+    color: black;
+    font-size: 25px;
+    display: flex;
+    text-decoration: none;
+    margin: 30px 0 0 40px;
+}
+.Pack{
+    float: left;
+    margin-left: 50px;
+}
+.Pack h1{
+    margin: 30px 0 0 40px;
+    font-size: 30px;
+}
+.Pack a{
+    color: black;
+    font-size: 25px;
+    display: flex;
+    text-decoration: none;
+    margin: 30px 0 0 40px;
+} 
+
+.Contact{
+    float: left;
+    margin-left: 40px;   
+}
+
+.Contact h1{
+    font-size: 30px;
+    margin: 30px 0 0 40px;
+
+}
+
+.Contact a{
+    color: black;
+    display: flex;
+    font-size: 25px;
+    text-decoration: none;
+    margin:  30px 0 0 40px;
+}
+
+.Media{
+    float: left;
+    margin-left: 40px;
+}
+
+.Media h1{
+    font-size: 30px;
+    margin:  30px 0 0 30px;
+}
+
+.Media a{
+    color: black;
+    display: flex;
+    font-size: 50px;
+    text-decoration: none;
+    margin:  30px 0 0 70px;
+}
+
+.Payment {
+    font-size: 25px;
+    margin:  50px 0 0 149px;
+   
+}
+
+.Img{
+    display: flex;
+    border-radius: 5px;
+}
+
+.boxed-one{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black; 
+    background: url(Photo/visaa.png)no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+.boxed-two{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/pytm.svg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxed-three{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/phone.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxed-four{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/rupee.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxed-five{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/bhim.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxed-six{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid black;
+    background: url(Photo/bharat.jpeg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
